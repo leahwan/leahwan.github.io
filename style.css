@@ -1,0 +1,379 @@
+body {
+	background-color: #5D5D5D;
+	font-size: 12px;
+}
+
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+    background-color: #D1D3D4;
+}
+
+#logo img{
+    float:left;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.topnav{
+	height: 80px;
+
+	background-color: #5D5D5D;
+}
+
+.topnav a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.topnav a:hover {
+	color: #00A388;
+	text-decoration: none;
+}
+
+.topnav ul {
+	list-style: none;
+	margin-left: 115px;
+}
+
+.topnav ul li {
+	float: left;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-right: 100px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+
+#portfolio {
+	height: 642px;
+	background-color: #00A388;
+	font-family:"Chingolo Pro", "Helvetica Neue", sans-serif;
+}
+
+#title {
+	padding-top: 180px;
+	padding-left: 400px;
+	width: 800px;
+	margin: auto;
+	font-weight: normal;
+}
+
+#title1 img{
+    width: 200px;
+    margin: auto;
+}
+
+#title2 img{
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 10px
+}
+#birdsImage {
+	padding-top: 80px;
+	padding-left: 360px;
+	width: 600px;
+}
+#bird1 img{
+	float: left;
+	width: 50px;
+}
+#bird2 img{
+	float:left;
+	width: 50px;
+	margin-left: 70px;
+}
+#bird3 img{
+	float:left;
+	width: 50px;
+	margin-left: 70px;
+}
+#projectname {
+	clear:both;
+	padding-top: 20px;
+	padding-left: 360px;
+	width: 600px;
+}
+#project1 img{
+	float: left;
+	width: 50px;
+}
+#project2 img{
+	float:left;
+	width: 75px;
+	margin-left: 60px;
+}
+#project3 img{
+	float:left;
+	width: 50px;
+	margin-left: 57px;
+}
+#tube{
+	clear:both;
+	padding-top: 50px;
+	padding-left: 385px;
+	width: 600px;
+	margin:auto;
+}
+#tube img{
+	width: 250px;
+}
+#sort{
+	clear:both;
+    color: #D1D3D4;
+	padding-left: 305px;
+	width: 600px;
+	margin:auto;
+}
+
+#sort ul {
+	list-style: none;
+    	padding-left: 50px;
+}
+
+#sort ul li {
+	float: left;
+	padding-right: 20px;
+	font-family:"Chingolo Pro", "Helvetica Neue", sans-serif;
+	font-size: 14px;
+}
+#sort .extraspace{
+	padding-left: 15px;
+}
+#sort .extraspace2{
+	padding-left: 25px;
+}
+
+/*****Cyclist pages******/
+#cyclist_pg1 {
+	background-color: #5D5D5D;
+}
+
+#banner{
+   background-color: #00A388;
+   height: 80px;
+}
+
+.subtitle {
+	float: left;
+	color: white;
+	font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 7px;
+    margin-left: 30px;
+}	
+#cyclist_pg1 img{
+	clear:both;
+	width:960px;
+	margin-top: 10px;
+}
+#cyclist_pg1 p{
+	font-family: 'Brawler', serif;
+	font-size: 1.5em;
+	color: white;
+	margin-right:auto;
+	margin-left:auto; 
+	max-width:960px; 
+	text-align:left; 
+    padding: 60px 20px 60px 112px; 
+    letter-spacing:0.03em; 
+    line-height:1.5em;
+}
+
+#forward img{
+	clear:both;
+    float:left;
+    width: 60px;
+    margin-left: 980px;
+    margin-top: -405px;
+}
+#back img{
+	clear:both;
+    float:left;
+    width: 60px;
+    margin-left: -80px;
+    margin-top: -405px;
+}
+#sudoku_pg1 {
+	background-color: #5D5D5D;
+}
+#sudokuhome{
+	margin-top: 30px;
+}
+#sudokuhome img{
+	clear:both;
+	width:320px;
+	margin-top: 0px;
+	float:left;
+}
+#spacebar{
+	height: 361px;
+}
+
+#sudokuhome p{
+    
+	font-family: 'Brawler', serif;
+	font-size: 1.5em;
+	color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 350px;
+    width: 320px;
+	text-align:left; 
+    
+    letter-spacing:0.03em; 
+    line-height:2em;
+    letter-spacing: 1px;   
+    background-color: grey;
+    
+}
+#sudokumenu{
+	margin-top: 60px;
+}
+#sudokumenu img{
+	clear:both;
+	width:320px;
+	margin-top: 0px;
+	float:left;
+}
+
+#sudokumenu p{
+	font-family: 'Brawler', serif;
+	font-size: 1.5em;
+	color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 350px;
+    width: 320px;
+	text-align:left; 
+    
+    letter-spacing:0.03em; 
+    line-height:2em;
+    letter-spacing: 1px;
+    background-color: grey;
+    
+}
+#sudokualert{
+	margin-top: 60px;
+}
+#sudokualert img{
+	clear:both;
+	width:320px;
+	margin-top: 0px;
+	float:left;
+}
+
+
+#sudokualert p{
+    
+	font-family: 'Brawler', serif;
+	font-size: 1.5em;
+	color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 350px;
+    width: 320px;
+	text-align:left; 
+    
+    letter-spacing:0.03em; 
+    line-height:2em;
+    letter-spacing: 1px;
+    background-color: grey;
+    
+
+}
+#sudokusocial{
+	margin-top: 60px;
+}
+#sudokusocial img{
+	clear:both;
+	width:320px;
+	margin-top: 0px;
+	float:left;
+}
+
+
+#sudokusocial p{
+    
+	font-family: 'Brawler', serif;
+	font-size: 1.5em;
+	color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 350px;
+    width: 320px;
+	text-align:left; 
+    
+    letter-spacing:0.03em; 
+    line-height:2em;
+    letter-spacing: 1px;
+    background-color: grey;
+    
+
+}
+
+#resume{
+	width: 960px;
+	margin-top: 40px;
+    padding-bottom:60px;
+}
+
+#resume img {
+	width: 960px;
+}
+#download img {
+	width: 120px;
+
+	background-color: #00A388;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#banner1{
+   background-color: #00A388;
+   height: 80px;
+}
+.titles {
+	float: left;
+	color: white;
+	font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+#banner2{
+   background-color: #113340;
+   height: 80px;
+   margin-top: 30px;
+}	
+#banner2 .titles{
+	padding-left: 80px;
+}
+#banner3{
+   background-color: #d8d9b8;
+   height: 80px;
+   margin-top: 30px;
+}	
+#banner3 .titles{
+	padding-left: 80px;
+	color: #5d5d5d;
+}
+#banner4{
+   background-color: #d95d30;
+   height: 80px;
+   margin-top: 30px;
+}	
+#banner4 .titles{
+	padding-left: 80px;
+
+}
+#banner5{
+   background-color: #a5bf6b;
+   height: 80px;
+   margin-top: 30px;
+}	
+#banner5 .titles{
+	padding-left: 80px;
+   color: #5d5d5d;
+}
