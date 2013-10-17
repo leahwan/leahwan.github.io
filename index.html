@@ -2,19 +2,15 @@
 <!-- The design and coding is done by Leah Wan. -->
 <html>
 <head>
-      <link href='http://fonts.googleapis.com/css?family=Brawler' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-      <title>Leah Wan - Portfolio</title>
       <meta charset="utf-8">
+      <title>UI &amp; UX Designer in Bay Area - Leah Wan</title>
+      <meta name="keywords" content="ui, ux, design, , san francisco, mobile, iOS, Android, web design, html5, css3, responsive">
       <meta name="author" content="Leah Wan">
-      <meta name="description" content="I love UI/UX design and currently live in bay area." />
-	  <meta name="keywords" content="UI, UX, Design, iOS, App design, Interaction Design, Graphic Design, iPhone apps, iPad apps, applications, Games, responsive design, Sudoku, Cyclist." />
-	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> 
+      <meta name="description" content="San Francisco-based User experience and User Interface Designer.">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="style.css">
-      <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-      <style media="screen" type="text/css">/*<![CDATA[*/@import 'stylesheet.css';/*]]>*/</style>
+      <style media="screen" type="text/css">/*<![CDATA[*/@import 'style.css';/*]]>*/</style>
   
       <!--[if (gte IE 6)&(lte IE 8)]>
 	  <script type="text/javascript" src="http://aleksfaure.com/asset/js/selectivizr-min.js"></script>
@@ -22,87 +18,96 @@
 	<!--[if lt IE 9]>
 		<script src="http://aleksfaure.com/asset/js/html5shiv.js"></script>
 	<![endif]-->
+    <script src="imageSlider.js"></script>
+
 </head>
 
 <body>
-   <div id="container">
-      <div id="logo">
-         <img src="images/logo_pencile.png" alt="logo" />
-      </div>	
+     <header>
+         <div class="mylogo">
+            <img src="mylogo.png" alt="my logo" width="100" height="100">
+         </div>
+     </header>
+     
+     <div id="topGreen">
+       <h1>Welcome!</h1>
+       <h3>Hi, I am <span class="darkName">Leah Wan,</span> a free lance UI/UX designer based in 
+      San Francisco. <br>I enjoy design responsive mobile and web interfaces.</h3>
+     </div>
 
-      <div class="topnav">
-         <ul class="top">
-           <li><a href="index.html">Portfolio</a></li>
-           <li><a href="about.html">About</a></li>
-           <li><a href="resume.html">Resume</a></li>
-           <li><a href="http://dribbble.com/LeahWan">Dribbble</a></li>
+     <div id="floatIcon">
+       <a href="http://dribbble.com/LeahWan"><img src="Dribbble_icon.png" alt="Dribbble icon" width="35" height="35"></a>
+       <a href="mailto:leahwan82@gmail.com"><img src="contact_icon.png" alt="contact icon" width="35" height="35"></a>
+       <a href="Resume_Leah_Wan.pdf"><img src="resume_icon.png" alt="resume icon" width="35" height="35"></a>
+     </div>
 
-         </ul>	
-      </div>
+     <div class="SudokuMo">
+         <table>
+           <tr>
+             <td class="halfmoon"><img src="HalfMoonLabel.png" alt="Half Moon Label" width="60" height="172"></td>
+             <td class="projectTitle"><span class="mainTitle">Smart Sudoku</span><br>App Trilogy</td>
+             <td class="projectImage"><img src="sudokuMain.png" alt="Sudoku main design" width="698" height="600"></td>
+           </tr>
+         </table>
+     </div>
+      
+     <article class="descrip"> 
+       <h3>User interface design of an iOS game for my own team – App Trilogy.<br> It is available on App Store next month.</h3>
+     </article>
 
-      <div id="portfolio">
+     <div class="Textly">
+         <table>
+           <tr>
+             <td class="halfmoon"><img src="HalfMoonLabel_brown.png" alt="Half Moon Label" width="60" height="172"></td>
+             <td class="projectTitleBrown"><span class="mainTitle">Chat App Concept</span><br>Textly</td>
+             <td class="TextlyImage"><img src="textly_ios_white.png" alt="Sudoku main design" width="317" height="661"></td>
+           </tr>
+         </table>
+     </div>
+     
+     <article class="descripBrown"> 
+       <h3>Experimental design of a conceptual chatting app. Incorporating flat design and iOS7 aethetics with simply, elegant circular shapes.</h3>
+     </article>
 
-         <div id="title">
-          <div id="title1">
-             <img src="images/portfolio_text.png" alt="Portfolio" />
-          </div>
-          <div id="title2">
-             <img src="images/name_text.png" alt="Leah Wan" />
-          </div>	
-         </div>	
+     <div class="Textly">
+         <table>
+           <tr>
+             <td class="halfmoon"><img src="HalfMoonLabel.png" alt="Half Moon Label" width="60" height="172"></td>
+             <td class="projectTitle"><span class="mainTitle">User Profile</span><br>Textly on Android</td>
+             <td id="TextlyImageSlider">
+             
+                  <img src="Android_textly_profile.png" name="slideImg" alt="Profile page design" width="362" height="607">
+          <!--        <a href="#" onClick="switchImage('slideImg'); clearTimeout(timerID)"><img src="forward.png" class="forwardButton" alt="button" width="50" height="50"></a> -->
+             </td>
+           </tr>
+         </table>
+     </div>
+     
+     <article class="descrip"> 
+       <h3>Experiment with user profile page on Android platform. While following the uniform Holo theme, how can you add more design aspects and personality to the Android app? </h3>
+     </article>
 
-        <div id="birdsImage">
-          <div id="bird1">
-          	 <a href="cyclist.html"><img src="images/bluebird.png" alt="blue bird" /></a>
-          </div>
+     <div class="Textly">
+         <table>
+           <tr>
+             <td class="halfmoon"><img src="HalfMoonLabel_brown.png" alt="Half Moon Label" width="60" height="172"></td>
+             <td class="projectTitleBrown"><span class="mainTitle">Web Design</span><br>Interactive Labs</td>
+             <td class="WebImage"><img src="Interactive_Labs_Web.png" alt="web design" width="833" height="660"></td>
+           </tr>
+         </table>
+     </div>
+     
+     <article class="descripBrown"> 
+       <h3>Website Design of a IT consulting start-up company in Bay area. Using HTML5/CSS3/Javascript.</h3>
+     </article>
 
-          <div id="bird2">
-          	 <a href="sudoku.html"><img src="images/pinkbird.png" alt="pink bird" /></a>
-          </div>
-
-          <div id="bird3">
-          	 <a href="#"><img src="images/greenbird.png" alt="green bird" /></a>
-          </div>
-
-         </div> 
-
-        <div id="projectname">
-          <div id="project1">
-          	 <a href="cyclist.html"><img src="images/cyclist_text.png" alt="Cyclist" /></a>
-          </div>
-
-          <div id="project2">
-          	 <a href="#"><img src="images/sudoku_text.png" alt="Sudoku App" /></a>
-          </div>
-
-          <div id="project3">
-          	 <a href="#"><img src="images/concept_text.png" alt="Concept" /></a>
-          </div>
-        </div> 
-
-       <!---  <div id="tube">
-           <img src="images/tube.png" alt="tube image" />
-        </div>  
-
-        
-       <div id="sort">
-           <ul>
-           <li>Ideation</li>
-           <li>Wireframe</li>
-           <li class="extraspace">Web</li>
-           <li class="extraspace2">Mobile</li>
-
-         </ul>	
-        </div> 
-    -->
-
-      </div>
-
-    </div>
+     <footer class="foot">
+         <p class="mylogo"><img src="profile_circle.png" alt="my logo" width="100" height="100"></p>
+         <p>Contact me at <a href="mailto:leahwan82@gmail.com">leahwan82@gmail.com</a></p>   
+         <h6> Leah Wan&#169;2013</h6>
 
 
+     </footer>
 
-
-   </div>
 </body>
-</html>	
+</html>
