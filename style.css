@@ -98,6 +98,9 @@ td {
     padding-top: 60px;
     color: #cdcccc;
 }
+.descrip a {
+   color: #01a2a6;
+}
 .TextlyImage {
 	width: 950px;
 	padding-left: 250px;
