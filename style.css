@@ -39,6 +39,10 @@ h3 {
 	margin-right: auto;
 	font-weight: 400;
 }
+a {
+	color: #01a2a6;
+	text-decoration: none;
+}
 .darkName{
 	color: #2f343b;
 }
@@ -67,6 +71,7 @@ table{
 td {
 	padding: 0px;
 }
+
 .SudokuMo td {
     text-align: left;
     vertical-align: center;
@@ -98,9 +103,7 @@ td {
     padding-top: 60px;
     color: #cdcccc;
 }
-.descrip a {
-   color: #01a2a6;
-}
+≈
 .TextlyImage {
 	width: 950px;
 	padding-left: 250px;
