@@ -39,6 +39,10 @@ h3 {
 	margin-right: auto;
 	font-weight: 400;
 }
+.SudokuMo a {
+	color:  #2f343b;
+	text-decoration: none;
+}
 .descrip a {
 	color: #01a2a6;
 	text-decoration: none;
