@@ -23,7 +23,7 @@ body{
 	clear:both;
 	background-color: #01a2a6;
 	height: 320px;
-	width: 100%;
+	margin: auto;
 }
 
 h1 {
