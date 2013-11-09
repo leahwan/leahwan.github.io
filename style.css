@@ -229,7 +229,7 @@ td {
 	        padding-left: 0px;
                 }
                 .WebImage {
-           	width: 950px;
-         	padding-left: 150px;
+           	 width: 100%;
+	        padding-left: 0px;
                 }
 	}
