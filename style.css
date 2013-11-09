@@ -222,15 +222,15 @@ td {
                 }
                 .TextlyImage {
 	        width: 100%;
-	        padding-left: 0px;
+	        padding-left: 20px;
                 }
                 .TextlyImageAndroid {
                 width: 100%;
-	        padding-left: 0px;
+	        padding-left: -30px;
                 }
                 .WebImage {
            	 width: 100%;
-	        padding-left: 0px;
+	        padding-left: -10px;
                 }
                 .projectTitle {
 	        display: none;
