@@ -232,4 +232,11 @@ td {
            	 width: 100%;
 	        padding-left: 0px;
                 }
+                .projectTitle {
+	        display: none;
+                }
+                .projectTitleBrown {
+	        display: none;
+                }
+                
 	}
