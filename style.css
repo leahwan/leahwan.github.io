@@ -222,7 +222,7 @@ td {
                 }
                 .TextlyImage {
 	        width: 100%;
-	        padding-left: 60px;
+	        padding-left: 100px;
                 }
                 #TextlyImageSlider {
 	        width: 100%;
@@ -230,7 +230,7 @@ td {
                 }
                 .WebImage {
            	 width: 100%;
-	        margin-left: -20px;
+	        padding-left: 0px;
                 }
                 .projectTitle {
 	        display: none;
