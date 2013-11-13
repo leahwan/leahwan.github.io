@@ -21,6 +21,25 @@
 		<script src="http://aleksfaure.com/asset/js/html5shiv.js"></script>
 	<![endif]-->
     <script src="imageSlider.js"></script>
+     <script src="imageSlider.js"></script>
+     <script>
+     
+     function changeImageF(imgName)
+       {
+        document.getElementById("imageChange").src=imgName;
+        document.getElementById("imageChange").width=700;
+        document.getElementById("imageChange").style='margin-right:50px';
+       }
+
+       function changeImageB(imgName)
+       {
+        document.getElementById("imageChange").src=imgName;
+        document.getElementById("imageChange").width=582;
+        document.getElementById("imageChange").width=607;
+     
+       }
+ 
+     </script>
 
 </head>
 
@@ -80,8 +99,11 @@
              <td class="projectTitle"><span class="mainTitle">User Profile</span><br>Textly on Android</td>
              <td id="TextlyImageSlider">
              
-                  <img src="Android_textly_Double_screen.png" name="slideImg" alt="Profile page design" width="582" height="607">
+                  <img src="Android_textly_Double_screen.png" id="imageChange" name="slideImg" alt="Profile page design" width="582" height="607">
           <!--        <a href="#" onClick="switchImage('slideImg'); clearTimeout(timerID)"><img src="forward.png" class="forwardButton" alt="button" width="50" height="50"></a> -->
+                 <span class="floatArrow" onclick="changeImageF('wire.png');"> <img src="f_arrow.png" name="f_arrow" alt="forward arrow" ></span>
+                 <span class="floatArrowB" onclick="changeImageB('Android_textly_Double_screen.png');"> <img src="b_arrow.png" name="b_arrow" alt="backward arrow" ></span>
+                  
              </td>
            </tr>
          </table>
