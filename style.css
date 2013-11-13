@@ -169,6 +169,20 @@ td {
 	top: 200px;
 }
 
+.TextlyBottom {
+	padding-top: 30px;
+	width: 100%;
+	padding-left: 0px;
+	margin: 0px;
+	padding-left: 0px;
+	padding-bottom: 30px;
+	text-align: left;
+	white-space:nowrap; 
+	word-spacing:0;
+	border-collapse: collapse;
+	border: 0px;
+}
+
 .foot {
 	clear:both;
 	background-color: #f3f3f3;
