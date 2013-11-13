@@ -156,6 +156,18 @@ td {
 	padding-bottom: 280px;
 	padding-left: 50px;
 }
+.floatArrow {
+	float: left;
+	position: relative;
+	left: 800px;
+	top: 200px;
+}
+.floatArrowB {
+	float: left;
+	position: relative;
+	left: -50px;
+	top: 200px;
+}
 
 .foot {
 	clear:both;
