@@ -1,169 +1,89 @@
 <!DOCTYPE html>
-<!-- The design and coding is done by Leah Wan. -->
-<html>
-<head>
-      <meta charset="utf-8">
-      <title>UI &amp; UX Designer in Bay Area - Leah Wan</title>
-      <meta name="keywords" content="ui, ux, design, , san francisco, mobile, iOS, Android, web design, html5, css3, responsive">
-      <meta name="author" content="Leah Wan">
-      <meta name="description" content="San Francisco-based User experience and User Interface Designer.">
-      <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5">
-      <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-      <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="style.css">
-      <style media="screen" type="text/css">/*<![CDATA[*/@import 'style.css';/*]]>*/</style>
-  
-      <!--[if (gte IE 6)&(lte IE 8)]>
-	  <script type="text/javascript" src="http://aleksfaure.com/asset/js/selectivizr-min.js"></script>
-	<![endif]-->
-	<!--[if lt IE 9]>
-		<script src="http://aleksfaure.com/asset/js/html5shiv.js"></script>
-	<![endif]-->
-    <script src="imageSlider.js"></script>
-    
-     <script>
-     
-     function changeImageF(imgName)
-       {
-        document.getElementById("imageChange").src=imgName;
-        document.getElementById("imageChange").width=700;
-        document.getElementById("imageChange").style='margin-right:50px';
-       }
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>UI &amp; UX Designer in Bay Area - Leah Wan</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta name="keywords" content="ux designer, san francisco, mobile, iOS, Android, web design">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--[if lte IE 8]><link rel="stylesheet" href="../../responsive-nav.css"><![endif]-->
+    <!--[if gt IE 8]><!--><link rel="stylesheet" href="styles.css"><!--<![endif]-->
+    <script src="../../responsive-nav.js"></script>
+  </head>
+  <body>
 
-       function changeImageB(imgName)
-       {
-        document.getElementById("imageChange").src=imgName;
-        document.getElementById("imageChange").width=582;
-        document.getElementById("imageChange").width=607;
-     
-       }
- 
-     </script>
-     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <div role="navigation" id="foo" class="nav-collapse">
+      <ul>
+        <li ><a href="index.html"><img src="./img/LW.png" alt="logo" width="80"></a></li>
+        <li ><a href="index.html">LEAH WAN</a></li>
+        <li ><a href="index.html">Work</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
 
-  ga('create', 'UA-43490779-1', 'leahwan.com');
-  ga('send', 'pageview');
+    <div role="main" class="main">
+      <a href="#nav" class="nav-toggle">Menu</a>
+      <section class="grid full mobiletitle">
+        <div class="projectname">
+         <h1 class="darkfont">Work</h1>
+         <p class="grayfont">by Leah Wan</p>
+        </div>
 
-</script>
+      </section>
 
-</head>
+      <section class="grid full handpick">
+        <div class="projectname">
+         <h1>Handpick</h1>
+         <p>Seach Your Receipt by Ingredients</p>
+        </div>
 
-<body>
-     <header>
-         <div class="mylogo">
-            <img src="mylogo.png" alt="my logo" width="100" height="100">
-         </div>
-     </header>
-     
-     <div id="topGreen">
-       <h1>Welcome!</h1>
-       <h3>Hi, I am <span class="darkName">Leah Wan,</span> UI/UX designer based in 
-      San Francisco. <br>I enjoy designing responsive mobile and web interfaces.</h3>
-     </div>
+        <div class="full projectimage">
+         <img src="./img/Handpick_cover.png" alt="handpick">
+        </div>
 
-     <div id="floatIcon">
-       <a href="http://dribbble.com/LeahWan"><img src="Dribbble_icon.png" alt="Dribbble icon" width="35" height="35"></a>
-       <a href="mailto:leahwan82@gmail.com"><img src="contact_icon.png" alt="contact icon" width="35" height="35"></a>
-       <a href="Resume_Leah_Wan.pdf"><img src="resume_icon.png" alt="resume icon" width="35" height="35"></a>
-     </div>
+      </section>
 
-     <div class="SudokuMo">
-         <table>
-           <tr>
-             <td class="halfmoon"><img src="HalfMoonLabel.png" alt="Half Moon Label" width="60" height="172"></td>
-             <td class="projectTitle"><a href="https://itunes.apple.com/us/app/sudoku/id673754921?mt=8">
-             <span class="mainTitle">Smart Sudoku</span></a><br>App Trilogy</td>
-             <td class="projectImage"><img src="sudokuMain.png" alt="Sudoku main design" width="698" height="600"></td>
-           </tr>
-         </table>
-     </div>
+      <section class="grid full sphere cutoff">
+        <div class="projectname">
+         <h1 class="darkfont">Sphere</h1>
+         <p class="grayfont">Concept app of shopable instagram</p>
+        </div>
+
+        <div class="full projectimage smallimage imagespace">
+         <img src="./img/Sphere 1.png" alt="sphere">
+        </div>
+
+      </section>
+
+      <section class="grid full social cutoff">
+        <div class="projectname">
+         <h1>Stealthy Social App</h1>
+         <p>Share best content within your circle</p>
+        </div>
+
+        <div class="full projectimage">
+         <img src="./img/Social.png" alt="social">
+        </div>
+
+      </section>
+
+      <section class="grid full construcs cutoff">
+        <div class="projectname">
+         <h1>Construcs</h1>
+         <p>A project managing and photo sharing app for constructors</p>
+        </div>
+
+        <div class="full projectimage">
+         <img src="./img/construcs.png" alt="cons">
+        </div>
+
+      </section>
       
-     <article class="descrip"> 
-       <h3>User interface design of an iOS game for my own team – App Trilogy.<br> It is available on 
-       <a href="https://itunes.apple.com/us/app/sudoku/id673754921?mt=8">App Store</a>.</h3>
-     </article>
+    </div>
 
-     <div class="Textly">
-         <table>
-           <tr>
-             <td class="halfmoon"><img src="HalfMoonLabel_brown.png" alt="Half Moon Label" width="60" height="172"></td>
-             <td class="projectTitleBrown"><span class="mainTitle">Chat App Concept</span><br>Textly</td>
-             <td class="TextlyImage"><img src="textly_ios_white.png" alt="Sudoku main design" width="317" height="661"></td>
-           </tr>
-         </table>
-     </div>
-     
-     <article class="descripBrown"> 
-       <h3>Experimental design of a conceptual chatting app. Incorporating flat design and iOS7 aethetics with simply, elegant circular shapes.</h3>
-     </article>
-
-     <div class="Textly">
-         <table>
-           <tr>
-             <td class="halfmoon"><img src="HalfMoonLabel.png" alt="Half Moon Label" width="60" height="172"></td>
-             <td class="projectTitle"><span class="mainTitle">User Profile</span><br>Textly on Android</td>
-             <td id="TextlyImageSlider">
-             
-                  <img src="Android_textly_Double_screen.png" id="imageChange" name="slideImg" alt="Profile page design" width="582" height="607">
-          <!--        <a href="#" onClick="switchImage('slideImg'); clearTimeout(timerID)"><img src="forward.png" class="forwardButton" alt="button" width="50" height="50"></a> -->
-                  <p><img src="wire.png" id="wire" name="wire" alt="Profile page design" width="800" height="600"></p>
-
-          <!--        <a href="#" onClick="switchImage('slideImg'); clearTimeout(timerID)"><img src="forward.png" class="forwardButton" alt="button" width="50" height="50"></a> -->
-             <!--    <span class="floatArrow" onclick="changeImageF('wire.png');"> <img src="f_arrow.png" id="f_arrow" alt="forward arrow" ></span>
-                 <span class="floatArrowB" onclick="changeImageB('Android_textly_Double_screen.png');"> <img src="b_arrow.png" id="b_arrow" alt="backward arrow" ></span> -->
-             </td>
-           </tr>
-         </table>
-     </div>
-     
-     <article class="descrip"> 
-       <h3>Experiment with user profile page on Android platform. While following the uniform Holo theme, how can you add more design aspects and personality to the Android app. </h3>
-     </article>
-
-     <div class="Textly">
-         <table>
-           <tr>
-             <td class="halfmoon"><img src="HalfMoonLabel_brown.png" alt="Half Moon Label" width="60" height="172"></td>
-             <td class="projectTitleBrown"><span class="mainTitle">Web Design</span><br>Interactive Labs</td>
-             <td class="WebImage"><img src="Interactive_Labs_Web.png" alt="web design" width="833" height="660"></td>
-           </tr>
-         </table>
-     </div>
-     
-     <article class="descripBrown"> 
-       <h3>Website Design of a IT consulting start-up company in Bay area. Using HTML5/CSS3/Javascript.</h3>
-     </article>
-     
-     <div class="TextlyBottom">
-         <table>
-           <tr>
-             <td class="halfmoon"><img src="HalfMoonLabel.png" alt="Half Moon Label" width="60" height="172"></td>
-             <td class="projectTitle"><span class="mainTitle">Icon Design</span><br>PlayHaven</td>
-             <td class="IconImage"><img src="Icon_design.png" alt="web design" width="800" height="600"></td>
-           </tr>
-         </table>
-     </div>
-     
-     <article class="descrip"> 
-       <h3>Iconary Design for publish group in a iOS game platform company. <br>
-       	Product guide layout design of <a href="http://www.playhaven.com/assets/ADVERTISERS_MediaKit.pdf">Media Kit</a>, <a href="http://www.playhaven.com/engage">Solutions|Engage </a> and
-       	<a href="http://www.playhaven.com/monetize">Solutions|Monetize</a> is available on 
-       	PlayHaven.
-       </h3>
-     </article>
-
-     <footer class="foot">
-         <p class="mylogo"><img src="profile_circle.png" alt="my logo" width="100" height="100"></p>
-         <p>Contact me at <a href="mailto:leahwan82@gmail.com">leahwan82@gmail.com</a></p>   
-         <h6> Leah Wan&#169;2013</h6>
-
-
-     </footer>
-
-</body>
+    <script>
+      var navigation = responsiveNav("foo", {customToggle: ".nav-toggle"});
+    </script>
+  </body>
 </html>
