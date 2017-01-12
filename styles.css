@@ -29,6 +29,12 @@ body {
   font: normal 100%/1.5 'Montserrat', sans-serif;
 }
 
+img {
+  display: inline-block;
+  line-height: 0px;
+  vertical-align: bottom;
+}
+
 h1 {
   font-size: 2em;
   line-height: 1;
@@ -37,6 +43,8 @@ h1 {
   text-align: center;
   color: #fff;
   font-weight: 700;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 h2 {
@@ -60,6 +68,17 @@ p.intro {
   font-size: 1.25em;
   color: #555;
   font-weight: bold;
+}
+
+.smalltext{
+  text-align: center;
+  max-width: 60%;
+  margin: 0 auto;
+  margin-bottom: 0.9em;
+  color: #fff;
+  letter-spacing: 0.1em;
+  font-size: 0.5em;
+  font-weight: 700;
 }
 
 a {
@@ -310,6 +329,55 @@ a:hover {
 .animationimg {
   width: 70%;
   margin: 0 auto;
+}
+
+.foodpart1{
+  background-image: -webkit-radial-gradient(center top,ellipse cover,#68C3A0,#4AB48B);
+}
+
+.foodpart3 {
+  background-color: #51B7AD;
+}
+
+.foodpart4 {
+  background-color: #DBDEE1;
+}
+
+.foodpart5 {
+  background-color: #B4974D;
+}
+
+.foodpart6 {
+  background-color: #56BA94;
+}
+
+.foodpart7 {
+  background-color: #68C3A0;
+}
+
+.foodpart8 {
+  background-color: #55B993;
+}
+
+.blogpart1 {
+  background-image: -webkit-radial-gradient(bottom right,ellipse cover,#953A84,#945AB5);
+}
+
+.imageresize {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.blogpart3 {
+  background-image: -webkit-radial-gradient(bottom right,ellipse cover,#AA6B8A,#63479E);
+}
+
+.blogpart4 {
+  background-color: #DBDEE1;
+}
+
+.blogpart5 {
+  background-color: #1C3AA3;
 }
 
 
